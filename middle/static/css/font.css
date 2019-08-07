@@ -1,0 +1,20 @@
+body{
+  font-family:"Noto Sans CJK KR"
+}
+.font_q{
+  font-family: "Roboto Medium";
+  font-size: 16pt;
+  font-weight: bold;
+  color:#bcbcbc;
+}
+.font_donggi{
+  font-size: 16pt;
+  color:#bcbcbc;
+}
+.font_donggi_content{
+  font-size: 8pt;
+  color:#bcbcbc;
+}
+.mint{
+  color:#1ab1ba;
+}

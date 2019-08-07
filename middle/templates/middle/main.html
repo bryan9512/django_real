@@ -1,0 +1,100 @@
+<!doctype html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>IAM</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sizing.css' %}">
+    <link rel="stylesheet" href="{% static 'css/border.css' %}">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--위쪽 nav임-->
+    <nav class="navbar navbar-expand-md fixed-top bg-white">
+      <a class="navbar-brand" href="#"><img src="/static/img/iam_logo.jpg" width="82px" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+  </nav>
+<!--위쪽 nav임-->
+
+
+<main role="main">
+
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron d-flex justify-content-around align-items-end" style="background-color: #262626; min-height:500px; padding-bottom:0px">
+
+    <div class="container"  style="display:inline;">
+      <div class="col-md-6" style="display:inline;">
+        <img src="{% static '/img/moon.png' %}">
+      </div>
+      <div class="col-md-6 text-left" style="display:inline-block;">
+      <h1 class="display-3"style="display:inline-block;" ><span class="font_q"> Q.</span> <span class="font_donggi">지원 동기가 무엇인가요?</span></h1>
+      <br>
+      <p class="font_donggi_content" style="display:inline; margin-bottom:20px">This is a template for a simple marketing or informational website.<br> It includes a large callout called a jumbotron and three supporting pieces of content.<br> Use it as a starting point to create something more unique.</p>
+      <br>
+      <div class="text-right">
+        <a class="btn btn-lg " href="#" role="button" style="display:inline; background-color:#a8e4e5; border:none; font-size:8pt; min-width:232px; min-height:62px; padding-top:auto; color: black; margin-top:20px">체험시작 </a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+
+      <div class="d-flex  row" style="padding-top:30px ; padding-bottom:30px">
+        <div class="col-9" style="display:inline-block">
+          <h2 style="font-size:28pt;"><span class="mint">인공지능</span> 모의면접 서비스</h2>
+          <p style="color:#666; display:inline-block">실제 지원 기업을 기준으로 인공지능 모의면접을 진행합니다.<br> 당신의 자기소개서로 모의면접은 더욱 정교해집니다.</p>
+        </div>
+
+
+
+
+        <form action = "/tologin/" method="GET">
+          {% csrf_token %}
+          <p class="align-right" style="display:inline-block; margin: auto;"><button class="btn btn-secondary" href="/tologin/" role="button" style="background-color:#fce811; color:#3a1e1e; border:none">카카오톡 로그인</button></p>
+
+        </form>
+
+
+
+
+
+      </div>
+
+
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container footer-copyright text-center py-3">
+  <p>&copy; SWM IAM:</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </body>
+</html>

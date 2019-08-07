@@ -1,0 +1,121 @@
+<!doctype html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>IAM:</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sizing.css' %}">
+    <link rel="stylesheet" href="{% static 'css/border.css' %}">
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--위쪽 nav임-->
+    <nav class="navbar navbar-expand-md fixed-top bg-white">
+
+      <a class="navbar-brand" href="#"><img src="/static/img/iam_logo.jpg" width="82px" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </nav>
+    <!--위쪽 nav임-->
+
+
+
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-md-8 order-md-1" style="margin-bottom:40px;">
+          <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+          <h2>지원 회사/직군 입력</h2>
+          <p class="lead" style="color:#999; font-size:12px; margin-top:20px;">이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시이용약관명시</p>
+        </div>
+      </div>
+
+  <div class="row justify-content-around">
+
+    <div class="col-md-8 order-md-1">
+      <form class="needs-validation" novalidate>
+
+        <div class="mb-3">
+          <label for="school">회사명<b>*</b></label>
+          <input type="text" class="form-control" id="school" placeholder="지원하려하는 회사명을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;">
+          <div class="invalid-feedback">
+            회사명을 입력해주세요
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="major">직군명<b>*</b></label>
+          <input type="text" class="form-control" id="major" placeholder="직군을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;" required>
+          <div class="invalid-feedback">
+            직군을 입력해주세요
+          </div>
+        </div>
+
+
+
+
+        <div style="margin-bottom:41px;">
+          <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+          <h2>자기소개서 입력</h2>
+        </div>
+          <form>
+            <h5 style="margin-bottom:16px;">1. LG전자에 지원하게 된 동기가 무엇인가요?</h5>
+            <textarea  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
+            <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+
+            <h5 style="margin-bottom:16px;">2. 본인 성격의 장점은 무엇인가요?</h5>
+            <textarea  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
+
+
+
+
+
+
+
+        <div class="custom-control custom-checkbox" style="margin-top:100px;">
+          <input type="checkbox" class="custom-control-input " id="same-address">
+          <label class="custom-control-label" for="same-address">개인정보가 유출되지 않음에 대하여 동의합니다.</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="save-info">
+          <label class="custom-control-label" for="save-info">비밀 유지 의무에 대하여 숙지 했습니다.</label>
+        </div>
+        <hr class="mb-4">
+
+          <button class="btn btn-primary btn-lg btn-block align-self-center" type="submit" style="background-color:black;color:white; width:232px;border:none; margin:auto">모의면접 시작</button>
+
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; SWM IAM:</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      </body>
+</html>
