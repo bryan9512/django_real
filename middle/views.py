@@ -1,6 +1,10 @@
 from django.shortcuts import render, redirect
-from .models import Users
+from .models import Users,Apply
 import requests
+from django.views.decorators.csrf import csrf_exempt
+import speech_recognition as sr
+from django.shortcuts import render_to_response
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -35,10 +39,18 @@ def login(request):
 
 def apply(request):
 
+    nickname = request.session.get('nickname')
+
     #자기소개서 관련 항목들이 들어오면 Apply에 저장함!
-
-
-
+    if request.method == 'POST':
+        new_apply=Apply.objects.create(
+            a_company=request.POST['company'],
+            a_interset=request.POST['interest'],
+            a_qone=request.POST['q_one'],
+            a_qtwo=request.POST['q_two'],
+        )
+        return redirect('/testing/')
+    #'a_nowusers','a_company', 'a_interest','a_qone_q', 'a_qone', 'a_qtwo_q','a_qtwo', 'a_qthree_q','a_qthree', 'a_qfour_q' ,'a_four', 'a_qfive_q','a_five'
     return render(request,'middle/apply.html')
 
 def tologin(request):
@@ -113,3 +125,25 @@ def oauth(request):
 
 
     return redirect('/login/')
+
+
+
+@csrf_exempt
+def testing(request):
+    print("ㅇㅇ")
+    if request.method == 'POST':
+        print("포스트로 들어옴!")
+        r = sr.Recognizer()
+
+        harvard = sr.AudioFile(request.POST['send'])
+        with harvard as source:
+            audio = r.record(source)
+            call=r.recognize_google(audio)
+            print("정답임: "+r.recognize_google(audio))
+
+    else:
+        message = "Please check the POST call"
+
+
+
+    return  render(request,'middle/testing.html')

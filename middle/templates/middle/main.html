@@ -40,21 +40,26 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron d-flex justify-content-around align-items-end" style="background-color: #262626; min-height:500px; padding-bottom:0px">
 
-    <div class="container"  style="display:inline;">
-      <div class="col-md-6" style="display:inline;">
-        <img src="{% static '/img/moon.png' %}">
+    <div class="container">
+    <div class="row d-flex">
+      <div class="col text-center" style="margin-top:auto;">
+        <video  src="{% static '/video/io.mp4' %}" class="moonvid"/>
       </div>
-      <div class="col-md-6 text-left" style="display:inline-block;">
-      <h1 class="display-3"style="display:inline-block;" ><span class="font_q"> Q.</span> <span class="font_donggi">지원 동기가 무엇인가요?</span></h1>
-      <br>
-      <p class="font_donggi_content" style="display:inline; margin-bottom:20px">This is a template for a simple marketing or informational website.<br> It includes a large callout called a jumbotron and three supporting pieces of content.<br> Use it as a starting point to create something more unique.</p>
-      <br>
-      <div class="text-right">
-        <a class="btn btn-lg " href="#" role="button" style="display:inline; background-color:#a8e4e5; border:none; font-size:8pt; min-width:232px; min-height:62px; padding-top:auto; color: black; margin-top:20px">체험시작 </a>
-      </div>
+
+      <div class="col text-left" style=" min-height:500px; margin-top:auto; margin-bottom:auto;">
+        <div class="align-middle" style="display:inline">
+          <h1 class="display-3"style="display:inline-block;" ><span class="font_q"> Q.</span> <span class="font_donggi">지원 동기가 무엇인가요?</span></h1>
+          <br>
+          <p class="font_donggi_content" style="display:inline; margin-bottom:20px">This is a template for a simple marketing or informational website.<br> It includes a large callout called a jumbotron and three supporting pieces of content.<br> Use it as a starting point to create something more unique.</p>
+          <br>
+          <div class="text-right ">
+            <a class="btn btn-lg " id="moonstart" href="#" role="button" style="display:inline; background-color:#a8e4e5; border:none; font-size:8pt; min-width:232px; min-height:62px; padding-top:auto; color: black; margin-top:20px">체험시작 </a>
+        </div>
+        </div>
     </div>
   </div>
   </div>
+    </div>
 
   <div class="container">
     <!-- Example row of columns -->
@@ -96,5 +101,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  var vid=document.getElementById("moonvid");
+
+</script>
+
+
+
+
   </body>
 </html>

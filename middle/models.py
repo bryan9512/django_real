@@ -9,7 +9,7 @@ class Users(models.Model):
     u_interest=models.CharField(max_length=200)
 
 class Apply(models.Model):
-    a_nowuser=models.ForeignKey(Users, on_delete=models.CASCADE)
+    #a_nowuser=models.ForeignKey(Users, on_delete=models.CASCADE)
     a_company=models.CharField(max_length=200)
     a_interset=models.CharField(max_length=200)
     a_qone_q=models.TextField(max_length=1000)

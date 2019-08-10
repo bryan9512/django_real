@@ -1,3 +1,22 @@
 .border_none{
   border:1px solid #a8e4e5;
 }
+
+
+@media (min-width: 768px) {
+  .moonvid {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .moonvid {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .moonvid {
+    width: 400px;
+  }
+}

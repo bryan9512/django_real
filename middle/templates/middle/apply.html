@@ -47,11 +47,11 @@
   <div class="row justify-content-around">
 
     <div class="col-md-8 order-md-1">
-      <form class="needs-validation" novalidate>
-
+      <form class="needs-validation" method="POST" novalidate>
+      {% csrf_token %}
         <div class="mb-3">
           <label for="school">회사명<b>*</b></label>
-          <input type="text" class="form-control" id="school" placeholder="지원하려하는 회사명을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;">
+          <input type="text" class="form-control" name="company" id="school" placeholder="지원하려하는 회사명을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;">
           <div class="invalid-feedback">
             회사명을 입력해주세요
           </div>
@@ -59,7 +59,7 @@
 
         <div class="mb-3">
           <label for="major">직군명<b>*</b></label>
-          <input type="text" class="form-control" id="major" placeholder="직군을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;" required>
+          <input type="text" class="form-control" name="interest" id="major" placeholder="직군을 입력해주세요" style="border:none; border-bottom:1px solid #a8e4e5;" required>
           <div class="invalid-feedback">
             직군을 입력해주세요
           </div>
@@ -72,13 +72,13 @@
           <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
           <h2>자기소개서 입력</h2>
         </div>
-          <form>
+
             <h5 style="margin-bottom:16px;">1. LG전자에 지원하게 된 동기가 무엇인가요?</h5>
-            <textarea  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
+            <textarea name="q_one"  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
             <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
 
             <h5 style="margin-bottom:16px;">2. 본인 성격의 장점은 무엇인가요?</h5>
-            <textarea  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
+            <textarea name="q_two"  rows="7" style="width:100%; border: 1px solid #a8e4e5; background-color:#eeffff; color:#666; line-height:180%; padding:6px" ></textarea>
 
 
 
@@ -96,7 +96,7 @@
         </div>
         <hr class="mb-4">
 
-          <button class="btn btn-primary btn-lg btn-block align-self-center" type="submit" style="background-color:black;color:white; width:232px;border:none; margin:auto">모의면접 시작</button>
+          <button class="btn btn-primary btn-lg btn-block align-self-center" type="submit"  style="background-color:black;color:white; width:232px;border:none; margin:auto">모의면접 시작</button>
 
       </form>
     </div>

@@ -13,4 +13,4 @@ class CreateApply(forms.ModelForm):
     class Meta:
         model = Apply
 
-        fields = ['a_nowusers','a_company', 'a_interest','a_qone_q', 'a_qone', 'a_qtwo_q','a_qtwo', 'a_qthree_q','a_qthree', 'a_qfour_q' ,'a_four', 'a_qfive_q','a_five']
+        fields = [Users.u_name,'a_company', 'a_interest','a_qone_q', 'a_qone', 'a_qtwo_q','a_qtwo', 'a_qthree_q','a_qthree', 'a_qfour_q' ,'a_four', 'a_qfive_q','a_five']

@@ -29,6 +29,6 @@ urlpatterns = [
     path('tologin/',views.tologin, name="tologin"),
     url(r'^accounts/', include('allauth.urls')),
     path('oauth', views.oauth, name='oauth'),
-
+    path('testing/',views.testing,name="testing"),
 ]
 urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
