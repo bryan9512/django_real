@@ -21,199 +21,262 @@
     <link rel="stylesheet" href="{% static 'css/sizing.css' %}">
     <link rel="stylesheet" href="{% static 'css/border.css' %}">
 
-
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
+
+
+
+    <!-- script used for audio/video/gif recording -->
+    <script src="https://www.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="https://www.webrtc-experiment.com/DetectRTC.js"></script>
+    <script src="https://www.webrtc-experiment.com/gif-recorder.js"></script>
+    <script src="https://www.webrtc-experiment.com/getMediaElement.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+      <!--비디오 레코딩-->
   </head>
 
+  <style>
+      body{
+        background-color:green;
+  }
+  </style>
+
   <body>
+        <div class="container">
+            <div class=" row justify-content-md-center">
 
+                <div class="align-self-center" id="stts" style="display:inline-block;  background-color: rgba(255, 255, 255, .4); width:300px; height:300px; color: white; position:fix;  margin-top:200px;">
+                    <textarea id="stt_textarea" rows="7">
 
+                    </textarea>
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="get">Get</button>
+                    <button id="save" disabled>Save</button>
+                    <button id="stop_saying">대답 끝내기</button>
+                    <div id="videos-container"></div>
+                    <audio id="audio"></audio>
 
-
-    <div class="container">
-      <div class="row justify-content-around" style="margin-top:100px">
-          <div class="col">
-            <video src="/static/video/io.mp4" width="500" autoplay muted></video>
-          </div>
-
-          <div class="col">
-            <div id="results">
-              <textarea id="final_span" class="final" rows="7" cols="60" style="border:none"></textarea>
-              <br>
-              <span id="interim_span" class="interim"></span>
-              <p>
-            </div>
-            <div class="align-right">
-              <button id="start_button" onclick="startButton(event)">
-              <img id="start_img" src="mic.gif" alt="Start"></button>
-            </div>
-          </div>
-        <!--녹음버-->
-      </div>
-    <!--로우-->
-    </div>
-    <!--콘테이너-->
-
-
-
-
-
-
-
-
-
-  <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">&copy; SWM IAM:</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul>
-  </footer>
-    <!--
-    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
--->
+                </div>
+             </div>
+            <audio src="{{ questionszero }}" type="audio/wav" id="zero_point"></audio>
+            <audio src="{{ questionsone }}" type="audio/wav" id="starting_point"></audio>
+            <audio src="{{ questionstswo }}" type="audio/wav" id="second_point"></audio>
+         </div>
 
 
 <script>
-var final_transcript = '';
-var recognizing = false;
-var ignore_onend;
-var start_timestamp;
 
-if (!('webkitSpeechRecognition' in window)) {
-  upgrade();
-} else {
-  start_button.style.display = 'inline-block';
-  var recognition = new webkitSpeechRecognition();
-  recognition.continuous = true;
-  recognition.interimResults = true;
-  recognition.onstart = function() {
-    recognizing = true;
-    showInfo('info_speak_now');
-    start_img.src = 'mic-animate.gif';
-  };
-  recognition.onerror = function(event) {
-    if (event.error == 'no-speech') {
-      start_img.src = 'mic.gif';
-      showInfo('info_no_speech');
-      ignore_onend = true;
-    }
-    if (event.error == 'audio-capture') {
-      start_img.src = 'mic.gif';
-      showInfo('info_no_microphone');
-      ignore_onend = true;
-    }
-    if (event.error == 'not-allowed') {
-      if (event.timeStamp - start_timestamp < 100) {
-        showInfo('info_blocked');
-      } else {
-        showInfo('info_denied');
-      }
-      ignore_onend = true;
-    }
-  };
+        var audiozero= document.getElementById("zero_point");
+        var audioone= document.getElementById("starting_point");
+        var audiotwo= document.getElementById("second_point");
 
-	recognition.onend = function() {
-    recognizing = false;
-    if (ignore_onend) {
-      return;
-    }
-    start_img.src = 'mic.gif';
-    if (!final_transcript) {
-      showInfo('info_start');
-      return;
-    }
-    showInfo('');
-    if (window.getSelection) {
-      window.getSelection().removeAllRanges();
-      var range = document.createRange();
-      range.selectNode(document.getElementById('final_span'));
-      window.getSelection().addRange(range);
-    }
-    if (create_email) {
-      create_email = false;
-      createEmail();
-    }
-  };
+        setTimeout( function(){
+            document.getElementById("zero_point").play();
+        },3000);
 
-  recognition.onresult = function(event) {
-    var interim_transcript = '';
-    for (var i = event.resultIndex; i < event.results.length; ++i) {
-      if (event.results[i].isFinal) {
-        final_transcript += event.results[i][0].transcript;
-      } else {
-        interim_transcript += event.results[i][0].transcript;
-      }
-    }
-    final_transcript = capitalize(final_transcript);
-    final_span.innerHTML = linebreak(final_transcript);
-    interim_span.innerHTML = linebreak(interim_transcript);
-    if (final_transcript || interim_transcript) {
-      showButtons('inline-block');
-    }
-  };
-}
+        audiozero.onended = function(){
 
-function upgrade() {
-  start_button.style.visibility = 'hidden';
-  showInfo('info_upgrade');
-}
-var two_line = /\n\n/g;
-var one_line = /\n/g;
-function linebreak(s) {
-  return s.replace(two_line, '<p></p>').replace(one_line, '<br>');
-}
-var first_char = /\S/;
-function capitalize(s) {
-  return s.replace(first_char, function(m) { return m.toUpperCase(); });
-}
+            setTimeout( function() {
+            audioone.play();
+            }, 1000);
+            RecordStart();
+        };
+
+        audioone.onended =  function(){
+            setTimeout( function() {
+            audiotwo.play();
+            }, 1000);
+        };
+
+        // 오디오 끝난 이후
 
 
-function startButton(event) {
-  if (recognizing) {
-    recognition.stop();
-    return;
-  }
-  final_transcript = '';
-  recognition.lang = 'Ko-kr';
-  recognition.start();
-  ignore_onend = false;
-  final_span.innerHTML = '';
-  interim_span.innerHTML = '';
-  start_img.src = 'mic-slash.gif';
-  showInfo('info_allow');
-  showButtons('none');
-  start_timestamp = event.timeStamp;
-}
-function showInfo(s) {
-  if (s) {
-    for (var child = info.firstChild; child; child = child.nextSibling) {
-      if (child.style) {
-        child.style.display = child.id == s ? 'inline' : 'none';
-      }
-    }
-    info.style.visibility = 'visible';
-  } else {
-    info.style.visibility = 'hidden';
-  }
-}
-var current_style;
-function showButtons(style) {
-  if (style == current_style) {
-    return;
-  }
-  current_style = style;
-  copy_button.style.display = style;
-  email_button.style.display = style;
-  copy_info.style.display = 'none';
-  email_info.style.display = 'none';
-}
-</script>
 
+
+        function captureUserMedia(mediaConstraints, successCallback, errorCallback) {
+            navigator.mediaDevices.getUserMedia(mediaConstraints).then(successCallback).catch(errorCallback);
+        }
+        var videosContainer = document.getElementById('videos-container');
+        var mRecordRTC = new MRecordRTC();
+        mRecordRTC.mediaType = {
+            audio: true, // or StereoAudioRecorder or MediaStreamRecorder (WebAssembly also supports audio-encoding however not implemented in WebAssemblyRecorder YET)
+            video: true  // or WhammyRecorder      or MediaStreamRecorder or WebAssemblyRecorder or CanvasRecorder
+        };
+        if (DetectRTC.browser.name === 'Edge') {
+            // Microsoft Edge currently supports only audio and gif recording
+            mRecordRTC.mediaType = {
+                audio: StereoAudioRecorder
+            };
+        }
+
+
+
+
+        function RecordStart(){
+          captureUserMedia({
+              audio: true,
+              video: true
+          },
+          //div 안에 비디오 객체 만들어놓는거임!
+          function(stream) {
+              var video = document.createElement('video');
+              video.autoplay = true;
+              video.srcObject = stream;
+              var mediaElement = getMediaElement(video, {
+                  buttons: [],
+                  showOnMouseEnter: false,
+                  enableTooltip: false,
+                  onMuted: function() {
+                      document.querySelector('#audio').muted = true;
+                  },
+                  onUnMuted: function() {
+                      document.querySelector('#audio').muted = false;
+                      document.querySelector('#audio').play();
+                  }
+              });
+              videosContainer.appendChild(mediaElement);
+              videosContainer.style.display = "none";
+              mRecordRTC.addStream(stream);
+              mRecordRTC.startRecording();
+          }, function(error) {
+              alert(JSON.stringify(error));
+          });
+        };
+
+        function RecordEnd(){
+          mRecordRTC.stopRecording(function(url, type) {
+              document.querySelector(type).srcObject = null;
+              document.querySelector(type).src = url;
+              document.querySelector(type).play();
+              // fixing firefox playback issue
+              if (!!navigator.mozGetUserMedia) {
+                      document.querySelector(type).onended = function() {
+                      document.querySelector(type).srcObject = null;
+                      document.querySelector(type).src = URL.createObjectURL(mRecordRTC.getBlob()[type]);
+                      document.querySelector(type).play();
+                  };
+              }
+              mRecordRTC.writeToDisk();
+              save.disabled = false;
+          });
+        };
+
+
+
+        // mRecordRTC.bufferSize = 16384;
+        document.querySelector('#start').onclick = function() {
+            this.disabled = true;
+            captureUserMedia({
+                audio: true,
+                video: true
+            },
+						//div 안에 비디오 객체 만들어놓는거임!
+						function(stream) {
+                var video = document.createElement('video');
+                video.autoplay = true;
+                video.srcObject = stream;
+                var mediaElement = getMediaElement(video, {
+                    buttons: [],
+                    showOnMouseEnter: false,
+                    enableTooltip: false,
+                    onMuted: function() {
+                        document.querySelector('#audio').muted = true;
+                    },
+                    onUnMuted: function() {
+                        document.querySelector('#audio').muted = false;
+                        document.querySelector('#audio').play();
+                    }
+                });
+                videosContainer.appendChild(mediaElement);
+								videosContainer.style.display = "none";
+                mRecordRTC.addStream(stream);
+                mRecordRTC.startRecording();
+            }, function(error) {
+                alert(JSON.stringify(error));
+            });
+        };
+
+        document.querySelector('#stop').onclick = function() {
+            this.disabled = true;
+            mRecordRTC.stopRecording(function(url, type) {
+                document.querySelector(type).srcObject = null;
+                document.querySelector(type).src = url;
+                document.querySelector(type).play();
+                // fixing firefox playback issue
+                if (!!navigator.mozGetUserMedia) {
+                        document.querySelector(type).onended = function() {
+                        document.querySelector(type).srcObject = null;
+                        document.querySelector(type).src = URL.createObjectURL(mRecordRTC.getBlob()[type]);
+                        document.querySelector(type).play();
+                    };
+                }
+                mRecordRTC.writeToDisk();
+                save.disabled = false;
+            });
+        };
+        document.getElementById('save').onclick = function() {
+            this.disabled = true;
+            mRecordRTC.save();
+        };
+        document.querySelector('#get').onclick = function() {
+            this.disabled = true;
+            !!navigator.webkitGetUserMedia && MRecordRTC.getFromDisk('all', function(dataURL, type) {
+                if (!dataURL) return;
+                if (type == 'audio') {
+                    document.querySelector('#audio').src = dataURL;
+                }
+                if (type == 'video') {
+                    var video = document.createElement('video');
+                    video.src = dataURL;
+                    var mediaElement = getMediaElement(video, {
+                        buttons: ['mute-video'],
+                        showOnMouseEnter: false,
+                        enableTooltip: false,
+                        onMuted: function() {
+                            document.querySelector('#audio').muted = true;
+                        },
+                        onUnMuted: function() {
+                            document.querySelector('#audio').muted = false;
+                            document.querySelector('#audio').play();
+                        }
+                    });
+                    videosContainer.appendChild(mediaElement);
+                    document.querySelector('#audio').play();
+                    mediaElement.media.play();
+                }
+                if (type == 'gif') {
+                    var gifImage = document.createElement('img');
+                    gifImage.src = dataURL;
+                    videosContainer.appendChild(gifImage);
+                }
+            });
+            !!navigator.mozGetUserMedia && MRecordRTC.getFromDisk('video', function(dataURL) {
+                if (!dataURL) return;
+                var video = document.createElement('video');
+                video.src = dataURL;
+                var mediaElement = getMediaElement(video, {
+                    buttons: ['mute-video'],
+                    showOnMouseEnter: false,
+                    enableTooltip: false,
+                    onMuted: function() {
+                        mediaElement.muted = true;
+                    },
+                    onUnMuted: function() {
+                        mediaElement.muted = false;
+                        mediaElement.play();
+                    }
+                });
+                videosContainer.appendChild(mediaElement);
+                mediaElement.media.play();
+            });
+        };
+        window.addEventListener('beforeunload', function() {
+            document.querySelector('#start').disabled = false;
+            document.querySelector('#stop').disabled = false;
+            document.querySelector('#get').disabled = false;
+        }, false);
+        </script>
 
       <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
         <script src="form-validation.js"></script>

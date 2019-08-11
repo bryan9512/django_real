@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Users,Apply
 import requests
 from django.views.decorators.csrf import csrf_exempt
+from . import ask
 import speech_recognition as sr
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
@@ -130,20 +131,16 @@ def oauth(request):
 
 @csrf_exempt
 def testing(request):
-    print("ㅇㅇ")
-    if request.method == 'POST':
-        print("포스트로 들어옴!")
-        r = sr.Recognizer()
 
-        harvard = sr.AudioFile(request.POST['send'])
-        with harvard as source:
-            audio = r.record(source)
-            call=r.recognize_google(audio)
-            print("정답임: "+r.recognize_google(audio))
+    questionszero = ask.question("안녕하십니까 저희는 소프트웨어 마에스트로에서 인공지능 모의면접을 개발중인 아이앰 팀입니다.")
+    questionsone=ask.question("면접을 진행하기에 앞서 당부 드릴 것이 있습니다.")
+    questionstwo=ask.question("자기소개 부탁드립니다.")
 
-    else:
-        message = "Please check the POST call"
+    context={
+        'questionszero':questionszero,
+        'questionsone':questionsone,
+        'questionstswo':questionstwo,
+    }
 
 
-
-    return  render(request,'middle/testing.html')
+    return  render(request,'middle/testing.html',context)
