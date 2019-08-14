@@ -4,3 +4,4 @@ from . import models
 
 admin.site.register(models.Users)
 admin.site.register(models.Apply)
+admin.site.register(models.Video)

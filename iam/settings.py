@@ -73,6 +73,8 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 # `allauth` needs this from django
                 'django.template.context_processors.request',
+                #비디오 파일 업로드용
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -154,3 +156,6 @@ SOCIALACCOUNT_EMAIL_VERIFICATION = 'none' # 아니면  smtp 로 설정
 LOGIN_REDIRECT_URL = '/login' # 로그인 후 리디렉션할 페이지
 ACCOUNT_LOGOUT_REDIRECT_URL = "tif:index"  # 로그아웃 후 리디렉션 할 페이지
 ACCOUNT_LOGOUT_ON_GET = True # 로그아웃 버튼 클릭 시 자동 로그아웃
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

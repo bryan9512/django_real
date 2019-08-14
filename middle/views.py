@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect
-from .models import Users,Apply
+from .models import Users,Apply,Video
 import requests
 from django.views.decorators.csrf import csrf_exempt
-from . import ask
-import speech_recognition as sr
-from django.shortcuts import render_to_response
+from .form import VideoForm
+import os
+from . import videoporcessing
+
 from django.http import HttpResponse
 
 # Create your views here.
@@ -132,15 +133,46 @@ def oauth(request):
 @csrf_exempt
 def testing(request):
 
-    questionszero = ask.question("안녕하십니까 저희는 소프트웨어 마에스트로에서 인공지능 모의면접을 개발중인 아이앰 팀입니다.")
-    questionsone=ask.question("면접을 진행하기에 앞서 당부 드릴 것이 있습니다.")
-    questionstwo=ask.question("자기소개 부탁드립니다.")
-
-    context={
-        'questionszero':questionszero,
-        'questionsone':questionsone,
-        'questionstswo':questionstwo,
-    }
+    form = VideoForm(request.POST or None, request.FILES or None)
 
 
-    return  render(request,'middle/testing.html',context)
+    Uname = Users.objects.latest('u_name').u_name
+    Uname=str(Uname).replace(' ','_')
+
+    if form.is_valid():
+        form.save()
+
+
+    if request.method == 'POST':
+        print("Post가 왔다")
+
+
+        # form = VideoForm(request.POST)
+        # print(form)
+        # print(request.POST.get('name', ''))
+        # print(request.FILES.get('videofile',''))
+
+        filename = request.POST.get('name', '')
+        file = request.FILES.get('videofile', '')
+        if file:
+            print("비디오파일이이쯤")
+            # new_vid = Video.objects.create(
+            #     name=request.POST.get('name', ''),
+            #     videofile=file,
+            # )
+
+            if not os.path.exists('media/videos/'):
+                os.mkdir('media/videos/')
+
+            with open('media/videos/'+ str(Uname) + "_" + filename + '.webm', 'wb+') as destination:
+                for chunk in file.chunks():
+
+                    destination.write(chunk)
+                    #webm으로 바꾸기
+                    videoporcessing.convert_to_mp4('media/videos/'+ str(Uname) + "_" + filename + '.webm',Uname)
+                    return HttpResponse('Created!')
+
+        else:
+            return HttpResponse("Blob getting Error")
+
+    return  render(request,'middle/testing0.html')

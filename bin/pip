@@ -1,5 +1,4 @@
 #!/Users/bryan95/djangoreal/bin/python
-
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -22,3 +22,7 @@ class Apply(models.Model):
     a_four=models.TextField(max_length=2000)
     a_qfive_q = models.TextField(max_length=1000)
     a_five=models.TextField(max_length=2000)
+
+class Video(models.Model):
+    name= models.CharField(max_length=500)
+    videofile= models.FileField(upload_to='videos/', null=True, verbose_name="")

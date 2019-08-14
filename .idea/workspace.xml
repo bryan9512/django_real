@@ -2,9 +2,439 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cc1c11-e589-40d7-9963-e715a780f8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/ask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/futurize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pasteurize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_ffmpeg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/dag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/_markupbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_encoded_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_header_value_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_parseaddr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_policybase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/base64mime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/charset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/encoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/feedparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/headerregistry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/iterators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/multipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/nonmultipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/policy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/quoprimime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/cookiejar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/socket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/socketserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/badcert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/badkey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/dh512.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/https_svn_python_org_root.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert.passwd.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert2.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nokia.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nullbytecert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nullcert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/pystone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/sha256.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_key.passwd.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_servers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/total_ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/robotparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/disabled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/iterators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newnext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newround.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newsuper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_dummy_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_markupbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/configparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/copyreg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/dumb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/gnu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/ndbm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/cookiejar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/pickle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/reprlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/socketserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/test/support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/colorchooser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/commondialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/dialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/dnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/filedialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/messagebox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/scrolledtext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/simpledialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/tix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/ttk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/robotparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/winreg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/standard_library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/tests/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newbytes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newmemoryview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newobject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newopen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newrange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/utils/surrogateescape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixer_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_UserDict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_absolute_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_add__future__imports_except_unicode_literals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_basestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_bytes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_cmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_division.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_division_safe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_execfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_standard_library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_metaclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_next_call.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_oldstr_wrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_order___future__imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_print_with_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_raise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_remove_old__future__imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_unicode_keep_u.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_unicode_literals_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_xrange_with_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/feature_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_all__future__imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_all_future_builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_future_standard_library_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_annotations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_division.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_fullargspec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_future_builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_getcwd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_imports2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_kwargs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_memoryview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_metaclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_newstyle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_next.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_printfunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_raise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_raise_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_throw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_unpacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/noniterators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/translation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/basestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/olddict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/oldstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/10724453056.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/8880829038.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/8880829038_XheckDy.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/&lt;django.db.models.query_utils.DeferredAttribute object at 0x10851f198&gt;_stage_four.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_four.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_three.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_two.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)a_stage_four.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)a_stage_three.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_0YwegFv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_1tQ2K72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_31P71Ne" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_4D5x11H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_4dzbGmL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_4gARaTY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_6J5qSW4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_7EcFFfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_7T4seDW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_82SEsVP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_A2u4lbE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_BHWZ25F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_BPc2P7U" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_BcO985p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_CQLzwEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_CdW1veU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_D4ELrrN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_EFpS2Cq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_EGIBVzy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_ERdLYa7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_EYNBgAZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_GEPbqt6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_GQ1DPtR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_GQ2rwl7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_HYbj8pC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_HaiiAs8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_IGdCuew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_J3F8rMf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_JXtbEia.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_KQaKR7G" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_LOUHEkM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_LjOxClk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_Mymz08h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_NDbBOr2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_NnNjPcS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_OP2hq1K" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_OPlzzpM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_OTuiVAa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_OtqlnsH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_OxZhYcC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_Q5SBGM3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_SGgB3v9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_SijODcI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_UxvSCM9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_VXZ7o2o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_WQ5EIFt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_X0M3BJu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_XaEcFXe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_YH37EpN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_Zk3kUgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_bJifhbk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_cN4xfim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_cupjSe4.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_d0bR1Zv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_d42Nkt4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_dDQkNpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_dPPMIZn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_diD6BrY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_dpO5sv8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_eSy78RA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_fKGKGct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_fLbnqQ2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_fMDEsfb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_ff4MLud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_fjJBuNy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_gSJESrO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_gmqrqVp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_i1j8HEe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_iCy5aXL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_j68Py33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_jd5w1Lm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_jpKNysu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_jveFC1E" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_k4YAfvV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_kpIExk7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_nqg6OJd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_pSgfeDI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_puRWexa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_pwZYHRd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_qrFXDgn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_quXHJme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_t79lPMS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_tQPoaRN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_uYp7e9a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_vXJiTbO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_w5VrO09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_xBU5Aw4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_xLXcBRY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_y6Qy4Zh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_yUL5OHm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_yqqSoAc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_z1O0HUf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blob_zWGBbTj.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/blobs.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/name2.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/name2a.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/output.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_four" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_four.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_foura.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_one" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_one.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_onea.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_three" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_three.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_threea.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_two" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_two.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/stage_twoa.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_four.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_one.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_three.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_two.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_one.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_one.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_two.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_two.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/migrations/0003_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/migrations/0004_auto_20190812_1305.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/output2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/audio/result7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/static/js/RecordRTC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/templates/middle/testing0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/videoporcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip3.7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/iam/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/iam/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/ask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/static/video/Space.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/Space.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/static/video/io.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/io.MP4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/static/video/moon.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/moon.MP4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middle/templates/middle/testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/middle/templates/middle/testing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middle/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/views.py" afterDir="false" />
     </list>
@@ -17,72 +447,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middle/views.py">
+        <entry file="file://$PROJECT_DIR$/middle/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/middle/ask.py">
+        <entry file="file://$PROJECT_DIR$/middle/videoporcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middle/templates/middle/testing.html">
+        <entry file="file://$PROJECT_DIR$/middle/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="276" column="36" selection-start-line="276" selection-start-column="36" selection-end-line="276" selection-end-column="36" />
+            <state relative-caret-position="231">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middle/form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middle/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middle/templates/middle/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,23 +498,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/middle/templates/middle/feedback_answer.html" />
-        <option value="$PROJECT_DIR$/iam/settings.py" />
         <option value="$PROJECT_DIR$/middle/templates/middle/login.html" />
         <option value="$PROJECT_DIR$/apis.py" />
         <option value="$PROJECT_DIR$/middle/migrations/__init__.py" />
         <option value="$PROJECT_DIR$/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py" />
         <option value="$PROJECT_DIR$/middle/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/lib/python3.7/site-packages/django/db/backends/sqlite3/introspection.py" />
-        <option value="$PROJECT_DIR$/middle/admin.py" />
-        <option value="$PROJECT_DIR$/iam/urls.py" />
         <option value="$PROJECT_DIR$/middle/templates/middle/apply.html" />
-        <option value="$PROJECT_DIR$/middle/form.py" />
-        <option value="$PROJECT_DIR$/middle/models.py" />
         <option value="$PROJECT_DIR$/middle/static/css/border.css" />
         <option value="$PROJECT_DIR$/middle/templates/middle/main.html" />
-        <option value="$PROJECT_DIR$/middle/views.py" />
-        <option value="$PROJECT_DIR$/middle/templates/middle/testing.html" />
+        <option value="$PROJECT_DIR$/iam/settings.py" />
+        <option value="$PROJECT_DIR$/iam/urls.py" />
+        <option value="$PROJECT_DIR$/middle/models.py" />
+        <option value="$PROJECT_DIR$/middle/form.py" />
+        <option value="$PROJECT_DIR$/middle/admin.py" />
         <option value="$PROJECT_DIR$/middle/ask.py" />
+        <option value="$PROJECT_DIR$/middle/templates/middle/testing.html" />
+        <option value="$PROJECT_DIR$/middle/templates/middle/testing0.html" />
+        <option value="$PROJECT_DIR$/middle/views.py" />
+        <option value="$PROJECT_DIR$/middle/videoporcessing.py" />
       </list>
     </option>
   </component>
@@ -152,37 +542,24 @@
             <path>
               <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
-              <item name="iam" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoreal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoreal" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,17 +573,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/middle/templates/middle" />
-      <recent name="$PROJECT_DIR$/middle/templates/mddle" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/middle/static/audio" />
       <recent name="$PROJECT_DIR$/middle/static/video" />
       <recent name="$PROJECT_DIR$/middle/static/img" />
       <recent name="$PROJECT_DIR$/middle" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/middle/static/audio" />
+      <recent name="$PROJECT_DIR$/middle/static/js" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/middle/templates/middle" />
+      <recent name="$PROJECT_DIR$/middle/templates/mddle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,7 +600,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.videoporcessing">
     <configuration name="apis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="djangoreal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,8 +622,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="videoporcessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="djangoreal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/videoporcessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.videoporcessing" />
         <item itemvalue="Python.apis" />
       </list>
     </recent_temporary>
@@ -270,12 +671,21 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2114165" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435666" visible="true" weight="0.2114165" />
+      <window_info id="Structure" order="1" sideWeight="0.50564337" side_tool="true" weight="0.2114165" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -283,9 +693,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33568406" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32863188" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32863188" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3751763" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,7 +705,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="태스트예시1" />
-    <option name="LAST_COMMIT_MESSAGE" value="태스트예시1" />
+    <MESSAGE value="백앤드 완료, 합치기 전" />
+    <option name="LAST_COMMIT_MESSAGE" value="백앤드 완료, 합치기 전" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -365,13 +776,6 @@
     <entry file="file://$PROJECT_DIR$/middle/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/iam/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middle/migrations/0002_formig.py" />
     <entry file="file://$PROJECT_DIR$/db.sqlite">
       <provider selected="true" editor-type-id="text-editor" />
@@ -387,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middle/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -440,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iam/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middle/templates/middle/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -460,53 +847,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middle/admin.py">
+    <entry file="file://$PROJECT_DIR$/lib/python3.7/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="148">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iam/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/migrations/0004_auto_20190812_1305.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#627#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middle/form.py">
+    <entry file="file://$PROJECT_DIR$/middle/static/js/RecordRTC.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middle/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/templates/middle/r.html" />
+    <entry file="file://$PROJECT_DIR$/middle/templates/middle/aa.html" />
     <entry file="file://$PROJECT_DIR$/middle/templates/middle/testing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="276" column="36" selection-start-line="276" selection-start-column="36" selection-end-line="276" selection-end-column="36" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/ask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/migrations/0003_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/templates/middle/testing0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middle/ask.py">
+    <entry file="file://$PROJECT_DIR$/middle/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/videoporcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

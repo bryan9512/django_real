@@ -1,0 +1,282 @@
+<!doctype html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>IAM:</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sizing.css' %}">
+    <link rel="stylesheet" href="{% static 'css/border.css' %}">
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+
+    <!-- script used for audio/video/gif recording -->
+    <script src="https://www.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="https://www.webrtc-experiment.com/DetectRTC.js"></script>
+    <script src="https://www.webrtc-experiment.com/gif-recorder.js"></script>
+    <script src="https://www.webrtc-experiment.com/getMediaElement.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+      <!--비디오 레코딩-->
+  </head>
+
+  <style>
+      body{
+        background-color:green;
+  }
+  </style>
+
+  <body>
+        <div class="container">
+            <div class=" row justify-content-md-center">
+
+                <div class="align-self-center" id="stts" style="display:inline-block;  background-color: rgba(255, 255, 255, .4); width:300px; height:300px; color: white; position:fix;  margin-top:200px;">
+                    <button id="btn-stop-recording"  disabled>대답 끝내기</button>
+
+                          <div id="videos-container"></div>
+
+                          <audio id="audio"></audio>
+
+                          <button  id="btn-upload" disabled >다음 질문 하기</button>
+                </div>
+             </div>
+            <audio src="{% static 'audio/result1.mp3' %}" type="audio/mp3" id="zero_point"></audio>
+            <audio src="{% static 'audio/result2.mp3' %}" type="audio/mp3" id="starting_point"></audio>
+            <audio src="{% static 'audio/result3.mp3' %}" type="audio/mp3" id="second_point"></audio>
+            <audio id="q" type="audio/mp3"></audio>
+         </div>
+
+
+<script>
+        var question=3;
+        var firstq_end=false;//첫 문제 답변 끝
+        var secondq_end=false;//두번째 문제 답변 끝
+        var thirdq_end=false;//세번째 문제 답변 끝
+        var fourthq_end=false;//네번째 문제 답변 .
+        var vidname="stage_one";
+
+        function tonext_stage(){
+          if(!firstq_end){
+            firstq_end=true;
+            vidname="stage_two";
+            return q_two_start();
+          }
+          else if(!secondq_end){
+            secondq_end=true;
+            vidname="stage_three";
+            return q_three_start();
+          }
+          else if(!thirdq_end){
+            thirdq_end=true;
+            vidname="stage_four";
+            return q_four_start();
+          }
+          else if(!fourthq_end){
+            fourthq_end=true;
+            return last();
+          }
+          };
+
+        var audiozero= document.getElementById("zero_point");
+        var audioone= document.getElementById("starting_point");
+        var audiotwo= document.getElementById("second_point");
+        var q = document.getElementById("q");
+        setTimeout( function(){
+            document.getElementById("zero_point").play();
+        },1000);
+
+        audiozero.onended = function(){
+            RecordStart();
+            setTimeout( function() {
+            audioone.play();
+            }, 1000);
+
+        };
+
+        audioone.onended =  function(){
+            setTimeout( function() {
+            audiotwo.play();
+            }, 1000);
+        };
+
+        // 오디오 끝난 이후
+
+        //첫번쨰 질믄
+        audiotwo.onended = function(){
+          RecordStart();
+          var q_one = "/static/audio/result3_";
+          var q_what =  String(Math.floor(Math.random() * 10)%2+1);
+          q_one=q_one+q_what+".mp3"
+          q.src=q_one;
+          q.play();
+        };
+
+        // 두번째 질문 시작
+        function q_two_start(){
+          RecordStart();
+          audioone.src="/static/audio/result4.mp3"
+          audioone.play();
+          audioone.onended =  function(){
+              setTimeout( function() {
+                var q_one = "/static/audio/result4_";
+                var q_what =  String(Math.floor(Math.random() * 10)%5+1);
+                q_one=q_one+q_what+".mp3"
+                q.src=q_one;
+                q.play();
+              }, 1000);
+          };
+        };
+
+
+        //세번째 질문 시작
+        function q_three_start(){
+          RecordStart();
+          audioone.src="/static/audio/result5.mp3"
+          audioone.play();
+          audioone.onended =  function(){
+              setTimeout( function() {
+                var q_one = "/static/audio/result5_";
+                var q_what =  String(Math.floor(Math.random() * 10)%6+1);
+                q_one=q_one+q_what+".mp3"
+                q.src=q_one;
+                q.play();
+              }, 1000);
+          };
+        };
+
+        //4번째 질문 시작
+        function q_four_start(){
+          RecordStart();
+                var q_one = "/static/audio/result6_";
+                var q_what =  String(Math.floor(Math.random() * 10)%3+1);
+                q_one=q_one+q_what+".mp3"
+                q.src=q_one;
+                q.play();
+        };
+
+        //마지막 말
+        function last(){
+          q.src="/static/audio/result7.mp3"
+          q.play();
+          recorder.stopRecording(stopRecordingCallback);
+        }
+
+
+
+
+        var videoConstraints = {
+            video: {
+
+                mandatory: {
+                    // chromeMediaSource: 'screen',
+                    minWidth: 1280,
+                    minHeight: 720,
+
+                    maxWidth: 1920,
+                    maxHeight: 1080,
+
+                    // minFrameRate: 3,
+                    // maxFrameRate: 32,
+
+                    minAspectRatio: 1.77
+                },
+
+                optional: []
+            }
+        };
+
+        function captureCamera(callback) {
+            navigator.mediaDevices.getUserMedia(videoConstraints).then(function(camera) {
+                callback(camera);
+            }).catch(function(error) {
+                alert('Unable to capture your camera. Please check console logs.');
+                console.error(error);
+            });
+        }
+        function stopRecordingCallback() {
+            //video.play();
+            recorder.camera.stop();
+            //recorder.destroy();
+            //recorder = null;
+        }
+        var recorder; // globally accessible
+
+        function RecordStart() {
+            captureCamera(function(camera) {
+                //video.play();
+                recorder = RecordRTC(camera, {
+                    type: 'video',
+                    frameRate: 60,
+                });
+                recorder.startRecording();
+                // release camera on stopRecording
+                recorder.camera = camera;
+                document.getElementById('btn-stop-recording').disabled = false;
+            });
+        };
+
+        //녹화 끝
+        document.getElementById('btn-stop-recording').onclick = function() {
+            this.disabled = true;
+            recorder.stopRecording(stopRecordingCallback);
+            document.getElementById('btn-upload').disabled = false;
+        };
+
+        $("#btn-upload").on("click", function(){
+            this.disabled = true;
+            if(!recorder || !recorder.getBlob()) return;
+            var blob = recorder.getBlob();
+            uploadBlob(blob);
+            tonext_stage();
+        })
+
+
+
+//ajax calling
+function uploadBlob(blob) {
+    var formData = new FormData();
+    formData.append('videofile', blob);
+    formData.append('name', vidname);
+    $.ajax({
+        url: "",
+        type: "POST",
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function(response) {
+
+            //alert('Successfully uploaded.');
+            //$("#record_now").hide().css('display','none');
+            //$("#pre-video").show().css('display','block');
+        },
+        error: function(jqXHR, textStatus, errorMessage) {
+            alert('Error:' + JSON.stringify(errorMessage));
+        }
+    });
+}
+
+
+
+        </script>
+
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+      </body>
+</html>
