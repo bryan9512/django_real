@@ -1,442 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cc1c11-e589-40d7-9963-e715a780f8b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/futurize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/pasteurize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg-1.4-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_ffmpeg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_probe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/audio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/dag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/stream.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg/video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy-0.2.2-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future-0.17.1-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/_markupbase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_encoded_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_header_value_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_parseaddr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/_policybase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/base64mime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/charset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/encoders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/feedparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/header.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/headerregistry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/iterators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/audio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/multipart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/nonmultipart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/mime/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/policy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/quoprimime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/email/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/entities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/html/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/cookiejar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/http/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/socketserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/badcert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/badkey.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/dh512.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/https_svn_python_org_root.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert.passwd.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/keycert2.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nokia.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nullbytecert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/nullcert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/pystone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/sha256.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_key.passwd.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/ssl_servers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/test/support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/total_ordering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/urllib/robotparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/backports/xmlrpc/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/disabled.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/iterators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newnext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newround.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/builtins/newsuper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_dummy_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_markupbase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/builtins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/configparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/copyreg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/dumb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/gnu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/dbm/ndbm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/entities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/html/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/cookiejar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/http/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/itertools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/reprlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/socketserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/subprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/sys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/test/support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/colorchooser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/commondialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/dialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/dnd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/filedialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/font.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/messagebox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/scrolledtext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/simpledialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/tix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/tkinter/ttk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/urllib/robotparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/winreg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/moves/xmlrpc/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/standard_library/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/tests/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newbytes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newdict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newmemoryview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newobject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newopen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newrange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/types/newstr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/future/utils/surrogateescape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixer_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_UserDict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_absolute_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_add__future__imports_except_unicode_literals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_basestring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_bytes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_cmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_division.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_division_safe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_execfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_builtins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_standard_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_metaclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_next_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_oldstr_wrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_order___future__imports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_print.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_print_with_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_raise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_remove_old__future__imports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_unicode_keep_u.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_unicode_literals_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/fixes/fix_xrange_with_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libfuturize/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/feature_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_all__future__imports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_all_future_builtins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_add_future_standard_library_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_annotations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_division.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_fullargspec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_future_builtins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_getcwd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_imports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_imports2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_kwargs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_memoryview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_metaclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_newstyle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_next.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_printfunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_raise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_raise_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_throw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/fixes/fix_unpacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/libpasteurize/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/builtins/noniterators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/translation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/basestring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/olddict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/types/oldstr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/past/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget-3.2-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/wget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/10724453056.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/8880829038.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/8880829038_XheckDy.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/&lt;django.db.models.query_utils.DeferredAttribute object at 0x10851f198&gt;_stage_four.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_four.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_three.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)_stage_two.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)a_stage_four.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/Users object (1)a_stage_three.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_0YwegFv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_1tQ2K72" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_31P71Ne" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_4D5x11H" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_4dzbGmL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_4gARaTY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_6J5qSW4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_7EcFFfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_7T4seDW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_82SEsVP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_A2u4lbE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_BHWZ25F" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_BPc2P7U" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_BcO985p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_CQLzwEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_CdW1veU" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_D4ELrrN" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_EFpS2Cq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_EGIBVzy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_ERdLYa7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_EYNBgAZ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_GEPbqt6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_GQ1DPtR" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_GQ2rwl7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_HYbj8pC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_HaiiAs8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_IGdCuew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_J3F8rMf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_JXtbEia.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_KQaKR7G" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_LOUHEkM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_LjOxClk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_Mymz08h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_NDbBOr2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_NnNjPcS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_OP2hq1K" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_OPlzzpM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_OTuiVAa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_OtqlnsH" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_OxZhYcC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_Q5SBGM3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_SGgB3v9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_SijODcI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_UxvSCM9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_VXZ7o2o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_WQ5EIFt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_X0M3BJu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_XaEcFXe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_YH37EpN" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_Zk3kUgi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_bJifhbk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_cN4xfim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_cupjSe4.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_d0bR1Zv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_d42Nkt4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_dDQkNpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_dPPMIZn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_diD6BrY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_dpO5sv8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_eSy78RA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_fKGKGct" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_fLbnqQ2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_fMDEsfb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_ff4MLud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_fjJBuNy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_gSJESrO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_gmqrqVp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_i1j8HEe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_iCy5aXL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_j68Py33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_jd5w1Lm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_jpKNysu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_jveFC1E" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_k4YAfvV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_kpIExk7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_nqg6OJd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_pSgfeDI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_puRWexa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_pwZYHRd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_qrFXDgn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_quXHJme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_t79lPMS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_tQPoaRN" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_uYp7e9a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_vXJiTbO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_w5VrO09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_xBU5Aw4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_xLXcBRY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_y6Qy4Zh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_yUL5OHm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_yqqSoAc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_z1O0HUf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blob_zWGBbTj.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/blobs.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/name2.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/name2a.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/output.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_four" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_four.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_foura.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_one" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_one.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_onea.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_three" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_three.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_threea.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_two" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_two.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/stage_twoa.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_four.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_one.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_three.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규 이_stage_two.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_one.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_one.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_two.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/태규_이_stage_two.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/migrations/0003_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/migrations/0004_auto_20190812_1305.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/output2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result3_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result4_5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result5_6.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result6_3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/audio/result7.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/static/js/RecordRTC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/templates/middle/testing0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/videoporcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="31cc1c11-e589-40d7-9963-e715a780f8b8" name="Default Changelist" comment="백앤드 완료, 합치기 전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pip3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iam/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/iam/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iam/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/iam/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/ffmpeg_python-0.2.0.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.2.2.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/ask.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/static/video/Space.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/Space.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/static/video/io.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/io.MP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/static/video/moon.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/middle/static/videos/moon.MP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/templates/middle/testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/middle/templates/middle/testing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -458,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/middle/videoporcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -668,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565400559475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="백앤드 완료, 합치기 전">
+      <created>1565780352868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565780352868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="백앤드 완료, 합치기 전">
+      <created>1565780573702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565780573702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -960,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middle/videoporcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
